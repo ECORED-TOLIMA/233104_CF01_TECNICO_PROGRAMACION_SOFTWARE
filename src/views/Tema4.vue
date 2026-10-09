@@ -42,7 +42,7 @@
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='')
       h5 Entrevistas
-    p.mb-4 La entrevista es la técnica más utilizada y versátil en el levantamiento de requisitos. Consiste en una conversación estructurada o semi-estructurada entre el analista y uno o más #[i stakeholders], orientada a comprender procesos, necesidades, problemas y expectativas relacionadas con el sistema.
+    p.mb-4 La entrevista es la técnica más utilizada y versátil en el levantamiento de requisitos. Consiste en una conversación estructurada o semiestructurada entre el analista y uno o más #[i stakeholders], orientada a comprender procesos, necesidades, problemas y expectativas relacionadas con el sistema.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .bloque-texto-gg.bloque-texto-gg--inverso.bgf2
@@ -97,7 +97,7 @@
         .cajon.color-secundario.p-4.mb-4
           p Su principal ventaja es la capacidad de llegar a un gran número de personas en poco tiempo y con bajo costo. El diseño de un cuestionario efectivo requiere definir claramente los objetivos, formular preguntas claras y no ambiguas, seleccionar adecuadamente el tipo de preguntas, ordenar los ítems de forma lógica y realizar una prueba piloto antes de su aplicación masiva.
           p.mb-0 Los tipos de preguntas más utilizados incluyen preguntas cerradas, abiertas, escalas Likert, preguntas de #[i ranking] y selección múltiple.
-        p.mb-4 La siguiente imagen esquemática, ilustra el ciclo completo de diseño y aplicación de un cuestionario para el levantamiento de requisitos. Cada etapa del ciclo es indispensable: omitir la prueba piloto, por ejemplo, puede resultar en datos de baja calidad que no sirven para tomar decisiones sobre los requisitos del sistema:
+        p.mb-4 La siguiente imagen esquemática ilustra el ciclo completo de diseño y aplicación de un cuestionario para el levantamiento de requisitos. Cada etapa del ciclo es indispensable: omitir la prueba piloto, por ejemplo, puede resultar en datos de baja calidad que no sirven para tomar decisiones sobre los requisitos del sistema:
         .titulo-sexto.color-acento-contenido
           h5 Figura 4.
           span Ciclo de diseño y aplicación de un cuestionario para levantamiento de requisitos
@@ -159,35 +159,35 @@
                       th Entrevista individual
                   tbody
                     tr
-                      th Participantes por sesión
+                      th Participantes por sesión.
                       td 6-12 simultáneos.
                       td 1-3 por sesión.
                     tr
-                      th Duración típica
+                      th Duración típica.
                       td 90-120 minutos.
                       td 45-90 minutos.
                     tr
-                      th Tipo de información
+                      th Tipo de información.
                       td Opiniones compartidas, consensos.
                       td Perspectivas individuales profundas.
                     tr
-                      th Dinámica
+                      th Dinámica.
                       td Interacción grupal estimula ideas.
                       td Conversación uno a uno.
                     tr
-                      th Riesgo principal
-                      td Pensamiento de grupo (groupthink).
+                      th Riesgo principal.
+                      td Pensamiento de grupo (<em>groupthink</em>).
                       td Sesgo del entrevistador.
                     tr
-                      th Moderación requerida
+                      th Moderación requerida.
                       td Facilitador experto.
                       td Analista capacitado suficiente.
                     tr
-                      th Costo por participante
+                      th Costo por participante.
                       td Bajo (economía de escala).
                       td Alto (más sesiones necesarias).
                     tr
-                      th Recomendado para
+                      th Recomendado para.
                       td Validar requisitos, priorizar funciones.
                       td Explorar necesidades específicas profundas.  
     .row.BG04.justify-content-center.px-md-5.px-4.mb-4(data-aos="fade-left")
@@ -214,35 +214,35 @@
                   th Ventaja clave
               tbody
                 tr
-                  td Encuestas / cuestionarios
-                  td Google Forms, SurveyMonkey
-                  td Distribución masiva y análisis
-                  td Gratuito, fácil de usar
+                  td Encuestas / cuestionarios.
+                  td Google Forms, SurveyMonkey.
+                  td Distribución masiva y análisis.
+                  td Gratuito, fácil de usar.
                 tr
-                  td Entrevistas virtuales
-                  td Zoom, Microsoft Teams
-                  td Sesiones remotas con grabación
-                  td Transcripción automática
+                  td Entrevistas virtuales.
+                  td Zoom, Microsoft Teams.
+                  td Sesiones remotas con grabación.
+                  td Transcripción automática.
                 tr
-                  td #[i Focus group] virtual
-                  td Miro, FigJam, Teams
-                  td Colaboración en tiempo real
-                  td Pizarras colaborativas
+                  td #[i Focus group] virtual.
+                  td Miro, FigJam, Teams.
+                  td Colaboración en tiempo real.
+                  td Pizarras colaborativas.
                 tr
-                  td Observación remota
-                  td Hotjar, FullStory
-                  td Análisis de comportamiento web
-                  td Mapas de calor automáticos
+                  td Observación remota.
+                  td Hotjar, FullStory.
+                  td Análisis de comportamiento #[em web]
+                  td Mapas de calor automáticos.
                 tr
-                  td Gestión de requisitos
-                  td JIRA, Azure DevOps
-                  td Documentar y priorizar requisitos
-                  td Trazabilidad integrada
+                  td Gestión de requisitos.
+                  td JIRA, Azure DevOps.
+                  td Documentar y priorizar requisitos.
+                  td Trazabilidad integrada.
                 tr
-                  td Prototipado rápido
-                  td Figma, Balsamiq
-                  td Validar interfaces con usuarios
-                  td Colaboración en tiempo real 
+                  td Prototipado rápido.
+                  td Figma, Balsamiq.
+                  td Validar interfaces con usuarios.
+                  td Colaboración en tiempo real. 
     
     Separador
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -310,7 +310,7 @@
               .row.justify-content-center.mb-3
                 .col-5
                   img(src="@/assets/curso/temas/tema4/img16.svg", alt="")
-              h5.text-center #[b Sponsor]
+              h5.text-center #[b #[em Sponsor]]
               span.mb-4 Responsabilidades: aprobar decisiones, resolver escalamientos, proveer autoridad.
               span.mb-0 Perfil ideal: gerente senior con poder de decisión.
             .tarjeta.bgslyder2.p-4
@@ -425,34 +425,34 @@
                   th Talleres JAD
               tbody
                 tr
-                  th Participantes
+                  th Participantes.
                   td 1-2 personas.
                   td 1-2 observadores.
                   td 5-15 #[i stakeholders].
                 tr
-                  th Duración
+                  th Duración.
                   td 30-90 minutos.
                   td 2-8 horas.
                   td 2-5 días.
                 tr
-                  th Ventaja
+                  th Ventaja.
                   td Profundidad individual.
-                  td Descubre workflows reales.
+                  td Descubre #[em workflows] reales.
                   td Consenso rápido.
                 tr
-                  th Desventaja
+                  th Desventaja.
                   td Consume mucho tiempo.
                   td Altera comportamiento.
                   td Difícil coordinar.
                 tr
-                  th Cuándo usar
+                  th Cuándo usar.
                   td Perspectiva de expertos.
                   td Entender procesos actuales.
                   td Validar y resolver conflictos. 
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        p.text-center.mb-0 Los talleres JAD, igualmente poseen unos aspectos positivos y negativos como son:
+        p.text-center.mb-0 Los talleres JAD igualmente poseen unos aspectos positivos y negativos como son:
     
     .tarjeta--container.row.mb-4
       .col-md.tarjeta.bgf5.p-5
@@ -498,7 +498,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .p-4.text-center 
-          p.mb-0 ¿Cuándo utilizar talleres JAD?
+          p.mb-0 #[b ¿Cuándo utilizar talleres JAD?]
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -550,46 +550,46 @@
                   th Recomendada cuando...
               tbody
                 tr
-                  td Entrevistas
-                  td Cualitativa profunda
-                  td Medio
-                  td Alto
-                  td 1-3
+                  td Entrevistas.
+                  td Cualitativa profunda.
+                  td Medio.
+                  td Alto.
+                  td 1-3.
                   td Se necesita perspectiva individual detallada.
                 tr
-                  td Observación
-                  td Comportamiento real
-                  td Medio
-                  td Alto
-                  td 1-2
+                  td Observación.
+                  td Comportamiento real.
+                  td Medio.
+                  td Alto.
+                  td 1-2.
                   td Existe brecha entre lo dicho y lo hecho.
                 tr
-                  td Cuestionarios
-                  td Cuantitativa masiva
-                  td Bajo
-                  td Medio
-                  td Muchos
+                  td Cuestionarios.
+                  td Cuantitativa masiva.
+                  td Bajo.
+                  td Medio.
+                  td Muchos.
                   td Hay muchos usuarios dispersos geográficamente.
                 tr
-                  td Encuestas
-                  td Validación y priorización cuantitativa
-                  td Bajo-medio
-                  td Medio
-                  td Muchos (muestra representativa)
+                  td Encuestas.
+                  td Validación y priorización cuantitativa.
+                  td Bajo-medio.
+                  td Medio.
+                  td Muchos (muestra representativa).
                   td Se requiere validar, priorizar o generalizar requisitos preliminares.
                 tr
-                  td #[i Focus group]
-                  td Opiniones grupales
-                  td Medio
-                  td Medio
-                  td 6-12
+                  td #[i Focus group].
+                  td Opiniones grupales.
+                  td Medio.
+                  td Medio.
+                  td 6-12.
                   td Se necesita consenso entre grupos de usuarios.
                 tr
-                  td Talleres JAD
-                  td Colaborativa
-                  td Alto
-                  td Bajo-medio
-                  td 10-20
+                  td Talleres JAD.
+                  td Colaborativa.
+                  td Alto.
+                  td Bajo-medio.
+                  td 10-20.
                   td Se necesitan decisiones rápidas y consenso.          
 </template>
 

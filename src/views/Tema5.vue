@@ -173,8 +173,8 @@
           .bottomCircle.mb-5
             figure
               img(src="@/assets/curso/temas/tema5/img15.svg", alt="").img80.m-auto
-          h4.text-center Definición de ítems del product backlog
-          p.mb-0 Establece claramente los ítems del #[i product backlog] mediante user stories bien formuladas y criterios de aceptación medibles y verificables.
+          h4.text-center Definición de ítems del #[em product backlog]
+          p.mb-0 Establece claramente los ítems del #[i product backlog] mediante #[em user stories] bien formuladas y criterios de aceptación medibles y verificables.
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad
           .bottomCircle.mb-5
@@ -188,11 +188,11 @@
             figure
               img(src="@/assets/curso/temas/tema5/img17.svg", alt="").img80.m-auto
           h4.text-center Aseguramiento de la comprensión del equipo
-          p.mb-0 Verifica que el equipo de desarrollo comprenda los requisitos con el nivel de detalle necesario para su correcta implementación en cada sprint.
+          p.mb-0 Verifica que el equipo de desarrollo comprenda los requisitos con el nivel de detalle necesario para su correcta implementación en cada #[em sprint].
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        p A diferencia del cliente líder, el PO tiene plena autoridad para tomar decisiones sobre el producto sin consultar a la dirección en cada caso. Esta autoridad es indispensable para que el equipo ágil pueda planificar y ejecutar sprints con certeza, sin interrupciones causadas por la falta de una persona con poder de decisión sobre el alcance.
+        p A diferencia del cliente líder, el PO tiene plena autoridad para tomar decisiones sobre el producto sin consultar a la dirección en cada caso. Esta autoridad es indispensable para que el equipo ágil pueda planificar y ejecutar #[em sprints] con certeza, sin interrupciones causadas por la falta de una persona con poder de decisión sobre el alcance.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='')
       h5 Equipo de desarrollo

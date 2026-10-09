@@ -38,7 +38,7 @@
                 .col-5
                   img(src="@/assets/curso/temas/tema3/img4.svg", alt="")
               h5.text-center #[b Manuales de procedimientos]
-              p.text-center.mb-0 Describen paso a paso cómo se ejecutan actualmente los procesos operativos del negocio, permitiendo comprender flujos de trabajo, responsabilidade
+              p.text-center.mb-0 Describen paso a paso cómo se ejecutan actualmente los procesos operativos del negocio, permitiendo comprender flujos de trabajo, responsabilidades y reglas implícitas.
             .tarjeta.bgslyder2.p-4
               .row.justify-content-center.mb-3
                 .col-5

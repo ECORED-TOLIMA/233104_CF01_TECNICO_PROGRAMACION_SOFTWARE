@@ -355,47 +355,47 @@
                   th Mejor contexto
               tbody
                 tr
-                  td #[i Waterfall]
-                  td Tradicional
-                  td No
-                  td Predictibilidad
-                  td Rigidez al cambio
-                  td Requisitos fijos, regulado
+                  td #[i Waterfall].
+                  td Tradicional.
+                  td No.
+                  td Predictibilidad.
+                  td Rigidez al cambio.
+                  td Requisitos fijos, regulado.
                 tr
-                  td Espiral
-                  td Tradicional
-                  td Sí (fases)
-                  td Gestión de riesgos
-                  td Alta complejidad
-                  td Proyectos de alto riesgo
+                  td Espiral.
+                  td Tradicional.
+                  td Sí (fases).
+                  td Gestión de riesgos.
+                  td Alta complejidad.
+                  td Proyectos de alto riesgo.
                 tr
-                  td RUP
-                  td Híbrido
-                  td Sí
-                  td Flexibilidad iterativa
-                  td Documentación extensa
-                  td Empresas grandes
+                  td RUP.
+                  td Híbrido.
+                  td Sí.
+                  td Flexibilidad iterativa.
+                  td Documentación extensa.
+                  td Empresas grandes.
                 tr
-                  td SCRUM
-                  td Ágil
-                  td #[i Sprints] 1-4 semanas
-                  td Adaptabilidad rápida
-                  td Difícil escalar
-                  td Productos innovadores
+                  td SCRUM.
+                  td Ágil.
+                  td #[i Sprints] 1-4 semanas.
+                  td Adaptabilidad rápida.
+                  td Difícil escalar.
+                  td Productos innovadores.
                 tr
-                  td XP
-                  td Ágil
-                  td Semanas
-                  td Calidad técnica
-                  td Requiere alta disciplina
-                  td Énfasis en código
+                  td XP.
+                  td Ágil.
+                  td Semanas.
+                  td Calidad técnica.
+                  td Requiere alta disciplina.
+                  td Énfasis en código.
                 tr
-                  td Kanban
-                  td Ágil
-                  td Flujo continuo
-                  td Visualización flujo
-                  td Sin cadencia definida
-                  td Soporte/mantenimiento
+                  td Kanban.
+                  td Ágil.
+                  td Flujo continuo.
+                  td Visualización flujo.
+                  td Sin cadencia definida.
+                  td Soporte/mantenimiento.
 </template>
 
 <script>

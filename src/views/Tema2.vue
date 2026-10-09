@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 2
       h1 Fundamentos de los requisitos de #[i software]
-    p.mb-4 Los requisitos de #[i software] constituyen la base sobre la cual se construye cualquier sistema de información. Son la expresión formal de las necesidades, expectativas y restricciones que el sistema debe satisfacer. El IEEE los define como: una condición o capacidad que debe satisfacer o poseer un sistema para cumplir con un contrato, estándar, especificación u otro documento impuesto formalmente.
+    p.mb-4 Los requisitos de #[i software] constituyen la base sobre la cual se construye cualquier sistema de información. Son la expresión formal de las necesidades, expectativas y restricciones que el sistema debe satisfacer. El IEEE los define como una condición o capacidad que debe satisfacer o poseer un sistema para cumplir con un contrato, estándar, especificación u otro documento impuesto formalmente.
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img1.png')})`}"
@@ -184,27 +184,27 @@
                   td HU-01
                   td Como usuario registrado, quiero iniciar sesión con email y contraseña para acceder al sistema de forma segura.
                   td El sistema valida credenciales en menos de 2 segundos. Bloquea la cuenta tras 5 intentos fallidos. Muestra mensaje de error específico.
-                  td Alta
+                  td Alta.
                 tr
                   td HU-02
                   td Como analista, quiero registrar una solicitud de servicio con todos sus campos para hacer seguimiento al caso del cliente.
-                  td El formulario valida campos obligatorios. Asigna número de ticket automático formato TK-YYYYMMDD-NNN. Confirma guardado con notificación.
-                  td Alta
+                  td El formulario valida campos obligatorios. Asigna número de <em>ticket</em> automático formato TK-YYYYMMDD-NNN. Confirma guardado con notificación.
+                  td Alta.
                 tr
                   td HU-03
                   td Como supervisor, quiero ver un reporte de solicitudes pendientes filtradas por prioridad para gestionar la carga de trabajo del equipo.
                   td El reporte se genera en menos de 5 segundos. Permite filtrar por fecha, prioridad y asignado. Exportable en PDF y Excel.
-                  td Media
+                  td Media.
                 tr
                   td HU-04
                   td Como administrador, quiero gestionar los usuarios del sistema (crear, editar, desactivar) para controlar el acceso a la información.
                   td Solo administradores acceden al módulo. Los cambios quedan registrados en log de auditoría con fecha, hora y usuario que realizó la acción.
-                  td Alta
+                  td Alta.
                 tr
                   td HU-05
                   td Como cliente, quiero recibir una notificación por email cuando mi solicitud cambia de estado para conocer el avance de mi caso.
-                  td El email se envía en menos de 1 minuto del cambio de estado. Incluye número de ticket, nuevo estado y enlace de consulta.
-                  td Media
+                  td El email se envía en menos de 1 minuto del cambio de estado. Incluye número de <em>ticket</em>, nuevo estado y enlace de consulta.
+                  td Media.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='')
       h5 Requisitos no funcionales
@@ -242,12 +242,12 @@
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 La siguiente tabla clasifica los diferentes tipos de requisitos con ejemplos concretos del contexto del #[i software] empresarial colombiano. Esta clasificación ayuda al analista a asegurarse de que ninguna categoría de requisito quede sin explorar durante el proceso de elicitación:
     
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         .titulo-sexto.color-acento-contenido
           h5 Tabla 4.
           span Clasificación y ejemplos de tipos de requisitos de #[i software]
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .tabla-a.color-acento-contenido.config-tabla 
           .tabla-a 
@@ -260,42 +260,42 @@
                   th Fuente típica
               tbody
                 tr
-                  td Funcional
+                  td Funcional.
                   td Qué hace el sistema.
                   td Registrar usuarios con validación de email único.
                   td Usuarios / cliente.
                 tr
-                  td No funcional – rendimiento
+                  td No funcional – rendimiento.
                   td Qué tan rápido responde.
                   td Tiempo de respuesta < 2 seg. / 500 usuarios.
                   td Arquitecto / usuario.
                 tr
-                  td No funcional – seguridad
+                  td No funcional – seguridad.
                   td Cómo protege los datos.
                   td Cifrado AES-256 para datos en reposo.
                   td Normativas / CISO.
                 tr
-                  td No funcional – usabilidad
+                  td No funcional – usabilidad.
                   td Qué tan fácil de usar.
                   td Aprendizaje < 2 horas sin capacitación.
                   td UX / usuarios.
                 tr
-                  td No funcional – disponibilidad
+                  td No funcional – disponibilidad.
                   td Cuándo está disponible.
                   td 99.5 % uptime anual / SLA definido.
                   td Negocio / SLA.
                 tr
-                  td De dominio
+                  td De dominio.
                   td Restricciones del sector.
                   td Cumplimiento Ley 1581 / GDPR.
                   td Reguladores / legal.
                 tr
-                  td De negocio
+                  td De negocio.
                   td Objetivos organizacionales.
                   td Reducir tiempo de atención en 30 %.
                   td Alta dirección.    
-    .BG03.px-5.p-4
-      .row.justify-content-center.align-items-center
+    .row.BG04.justify-content-center.px-md-5.px-4.mb-5(data-aos="fade-left")
+      .row.justify-content-center
         .col-lg-10
           figure.mb-4
             img(src='@/assets/curso/temas/tema2/img14.png', alt='')  
@@ -317,31 +317,31 @@
                   th Requisito no funcional
               tbody
                 tr
-                  th Pregunta que responde
+                  th Pregunta que responde..
                   td ¿Qué hace el sistema?
                   td ¿Cómo lo hace?
                 tr
-                  th Perspectiva
+                  th Perspectiva.
                   td Usuario final.
                   td Arquitecto / QA / operaciones.
                 tr
-                  th Verificación
+                  th Verificación.
                   td Pruebas funcionales / UAT.
                   td Pruebas de rendimiento, seguridad.
                 tr
-                  th Impacto si falla
+                  th Impacto si falla.
                   td Función específica no disponible.
                   td Sistema completo degradado.
                 tr
-                  th Documentación
+                  th Documentación.
                   td Casos de uso / historias de usuario.
                   td Atributos de calidad / SLA.
                 tr
-                  th Visibilidad
+                  th Visibilidad.
                   td Alta (usuario lo percibe).
                   td Baja (se percibe tardíamente).
                 tr
-                  th Efecto en arquitectura
+                  th Efecto en arquitectura.
                   td Parcial.
                   td Alto y transversal. 
 </template>
