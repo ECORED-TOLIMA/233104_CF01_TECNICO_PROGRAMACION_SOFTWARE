@@ -137,7 +137,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="1061" height="597" src="https://www.youtube.com/embed/K1exKJ0LT-s" title="Proceso de implementación focus group" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe(width="1061" height="597" src="https://www.youtube.com/embed/BTc3XYcvKQY" title="Proceso de implementación focus group" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
