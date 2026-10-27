@@ -182,7 +182,7 @@
               tbody
                 tr
                   td HU-01
-                  td Como usuario registrado, quiero iniciar sesión con email y contraseña para acceder al sistema de forma segura.
+                  td Como usuario registrado, quiero iniciar sesión con <em>email</em> y contraseña para acceder al sistema de forma segura.
                   td El sistema valida credenciales en menos de 2 segundos. Bloquea la cuenta tras 5 intentos fallidos. Muestra mensaje de error específico.
                   td Alta.
                 tr
@@ -202,8 +202,8 @@
                   td Alta.
                 tr
                   td HU-05
-                  td Como cliente, quiero recibir una notificación por email cuando mi solicitud cambia de estado para conocer el avance de mi caso.
-                  td El email se envía en menos de 1 minuto del cambio de estado. Incluye número de <em>ticket</em>, nuevo estado y enlace de consulta.
+                  td Como cliente, quiero recibir una notificación por <em>email</em> cuando mi solicitud cambia de estado para conocer el avance de mi caso.
+                  td El <em>email</em> se envía en menos de 1 minuto del cambio de estado. Incluye número de <em>ticket</em>, nuevo estado y enlace de consulta.
                   td Media.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='')
@@ -262,7 +262,7 @@
                 tr
                   td Funcional.
                   td Qué hace el sistema.
-                  td Registrar usuarios con validación de email único.
+                  td Registrar usuarios con validación de <em>email</em> único.
                   td Usuarios / cliente.
                 tr
                   td No funcional – rendimiento.

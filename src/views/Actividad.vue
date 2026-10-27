@@ -21,7 +21,7 @@ export default {
         'Metodologías de desarrollo y levantamiento de requisitos de <em>software</em>',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar la capacidad del aprendiz para aplicar las técnicas de elicitación y recolección de información aprendidas en el componente formativo CF01, identificando correctamente los tipos de requisitos, los roles involucrados y la metodología de desarrollo más apropiada para un caso de negocio real asignado por el instructor.',
+        '<b>Objetivo:</b> evaluar la comprensión y el nivel de apropiación de los principios, enfoques y buenas prácticas del desarrollo de software, a partir del análisis de situaciones y conceptos clave que intervienen en la definición, gestión y validación de soluciones tecnológicas.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -71,7 +71,7 @@ export default {
         {
           id: 3,
           texto:
-            '¿Cuál de las siguientes no es una fase del modelo en cascada (waterfall)?',
+            '¿Cuál de las siguientes no es una fase del modelo en cascada (<em>waterfall</em>)?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
